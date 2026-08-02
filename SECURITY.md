@@ -7,12 +7,12 @@ welcome reports from the community.
 
 **Please report security issues privately — do not open a public issue.**
 
-- Email **security@adjective.us** with details.
-- Preferably use GitHub's **[private vulnerability reporting](https://github.com/adjective-rob/inksign-public/security/advisories/new)**
-  (Security → Advisories → *Report a vulnerability*).
+Use GitHub's **[private vulnerability reporting](https://github.com/adjective-rob/inksign-public/security/advisories/new)**
+(on this repo: **Security → Advisories → _Report a vulnerability_**). It opens a private,
+encrypted channel between you and the maintainers — built for exactly this.
 
-Please include enough to reproduce (affected version/platform, steps, and impact). If
-you'd like to encrypt your report, say so and we'll arrange a key.
+Please include enough to reproduce: affected version and platform, steps, and the impact
+you observed.
 
 ### What to expect
 
