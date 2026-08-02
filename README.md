@@ -1,8 +1,15 @@
 <div align="center">
 
-# Inksign
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/inksign-logo-dark.svg">
+  <img src="./assets/inksign-logo-light.svg" alt="Inksign" width="300">
+</picture>
 
-**Sign PDFs on your own machine. Your keys never leave it.**
+### Sign PDFs on your own machine. Your keys never leave it.
+
+[![Latest release](https://img.shields.io/github/v/release/adjective-rob/inksign-public?label=latest&color=2c46d8)](https://github.com/adjective-rob/inksign-public/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/adjective-rob/inksign-public/total?color=2c46d8)](https://github.com/adjective-rob/inksign-public/releases)
+![Platform: Linux](https://img.shields.io/badge/platform-Linux-333)
 
 [Website](https://inksign.org) · [Verify a signed PDF](https://inksign.org/v) · [Download](#download) · [Report an issue](https://github.com/adjective-rob/inksign-public/issues)
 
@@ -20,35 +27,36 @@ application source is not published here.
 Inksign runs on Linux. Grab the format for your system from the
 [**latest release**](https://github.com/adjective-rob/inksign-public/releases/latest):
 
-| Your system | File | How to install |
+| Your system | File | Install |
 |---|---|---|
-| **Debian / Ubuntu** | `.deb` | Double-click to install — Inksign appears in your app menu. |
-| **Fedora / openSUSE** | `.rpm` | Double-click to install — with the menu entry. |
-| **Any distro** | `AppImage` | `chmod +x Inksign-*.AppImage` and run it. No install. |
+| **Debian / Ubuntu** | `Inksign-amd64.deb` | Double-click, or `sudo dpkg -i Inksign-amd64.deb` |
+| **Fedora / RHEL / openSUSE** | `Inksign-x86_64.rpm` | Double-click, or `sudo dnf install ./Inksign-x86_64.rpm` |
+| _Any distro (AppImage)_ | — | _Coming soon_ |
 
-> First release coming soon.
+Then search **"Inksign"** in your app menu and open it. Your existing keys are picked up
+automatically — open a PDF, place your signature, and seal it.
 
 ## Verify a signature
 
-Received a signed PDF? You can check it **in your browser** — nothing is uploaded —
-at [**inksign.org/v**](https://inksign.org/v): it confirms the signature is
-cryptographically intact, covers the whole document, and matches the signer.
+Received a signed PDF? Check it **in your browser** — nothing is uploaded — at
+[**inksign.org/v**](https://inksign.org/v): it confirms the signature is cryptographically
+intact, covers the whole document, and matches the signer.
 
 ## Why Inksign
 
 - **Your keys never leave the machine.** Signing happens locally; no telemetry, no upload.
-- **Standards-based.** PAdES signatures (ISO / eIDAS), verifiable in Acrobat and any
+- **Standards-based.** PAdES signatures (ETSI / ISO), verifiable in Acrobat and any
   compliant reader — not a proprietary format.
 - **Honest.** Ink marks say they stay editable; cryptographic seals say they don't.
   Inksign never claims a legal tier it can't back.
 
-## Issues & feedback
+## Issues & security
 
-Bug reports and feature requests are welcome in the
-[issue tracker](https://github.com/adjective-rob/inksign-public/issues).
+- Bugs and feature requests: the [issue tracker](https://github.com/adjective-rob/inksign-public/issues).
+- Found a vulnerability? Please report it privately — see [SECURITY.md](./SECURITY.md).
 
 ## License
 
-Inksign is proprietary software. Copyright © Adjective LLC. All rights reserved.
-The downloadable builds are licensed for use under their accompanying terms; this
-repository hosts those downloads and issue tracking only.
+Inksign is proprietary software. Copyright © Adjective LLC. All rights reserved. The
+downloadable builds are licensed for use under their accompanying terms; this repository
+hosts those downloads and issue tracking only. See [inksign.org/terms](https://inksign.org/terms).
