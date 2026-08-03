@@ -31,7 +31,7 @@ Inksign runs on Linux. Grab the format for your system from the
 |---|---|---|
 | **Debian / Ubuntu** | `Inksign-amd64.deb` | Double-click, or `sudo dpkg -i Inksign-amd64.deb` |
 | **Fedora / RHEL / openSUSE** | `Inksign-x86_64.rpm` | Double-click, or `sudo dnf install ./Inksign-x86_64.rpm` |
-| _Any distro (AppImage)_ | — | _Coming soon_ |
+| **Any distro** (AppImage) | `Inksign-x86_64.AppImage` | `chmod +x Inksign-x86_64.AppImage` and run it — no install |
 
 Then search **"Inksign"** in your app menu and open it. Your existing keys are picked up
 automatically — open a PDF, place your signature, and seal it.
@@ -41,6 +41,17 @@ automatically — open a PDF, place your signature, and seal it.
 Received a signed PDF? Check it **in your browser** — nothing is uploaded — at
 [**inksign.org/v**](https://inksign.org/v): it confirms the signature is cryptographically
 intact, covers the whole document, and matches the signer.
+
+## Prepare, then sign
+
+Build the document you need to sign without leaving Inksign — everything stays on your
+machine:
+
+- **Combine PDFs** into one file, in order.
+- **Split a PDF** — pull out specific pages, or burst every page into its own file.
+- **Markdown & Word (`.docx`) → PDF**, ready to sign.
+
+Each produces an ordinary, unsigned PDF you then seal with a signature.
 
 ## Why Inksign
 
