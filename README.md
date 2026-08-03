@@ -31,7 +31,7 @@ Inksign runs on Linux. Grab the format for your system from the
 |---|---|---|
 | **Debian / Ubuntu** | `Inksign-amd64.deb` | Double-click, or `sudo dpkg -i Inksign-amd64.deb` |
 | **Fedora / RHEL / openSUSE** | `Inksign-x86_64.rpm` | Double-click, or `sudo dnf install ./Inksign-x86_64.rpm` |
-| **Any distro** (AppImage) | `Inksign-x86_64.AppImage` | `chmod +x Inksign-x86_64.AppImage` and run it — no install |
+| _Any distro (AppImage)_ | — | _Coming soon_ |
 
 Then search **"Inksign"** in your app menu and open it. Your existing keys are picked up
 automatically — open a PDF, place your signature, and seal it.
