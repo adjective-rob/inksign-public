@@ -34,7 +34,8 @@ Inksign runs on Linux. Grab the format for your system from the
 | _Any distro (AppImage)_ | — | _Coming soon_ |
 
 Then search **"Inksign"** in your app menu and open it. Your existing keys are picked up
-automatically — open a PDF, place your signature, and seal it.
+automatically — open a PDF (or a Word / Markdown file — it converts automatically), place
+your signature, and seal it.
 
 ## Verify a signature
 
@@ -47,9 +48,10 @@ intact, covers the whole document, and matches the signer.
 Build the document you need to sign without leaving Inksign — everything stays on your
 machine:
 
+- **Open a Word (`.docx`) or Markdown file directly** — Inksign converts it to a signable
+  PDF automatically, no extra step.
 - **Combine PDFs** into one file, in order.
 - **Split a PDF** — pull out specific pages, or burst every page into its own file.
-- **Markdown & Word (`.docx`) → PDF**, ready to sign.
 
 Each produces an ordinary, unsigned PDF you then seal with a signature.
 
