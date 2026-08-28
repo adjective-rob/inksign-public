@@ -50,7 +50,8 @@ machine:
 
 - **Open a Word (`.docx`) or Markdown file directly** — Inksign converts it to a signable
   PDF automatically, no extra step.
-- **Combine PDFs** into one file, in order.
+- **Combine PDFs** into one file — drag the files into the order you want, and take just
+  the pages you need from any of them (`1-3,5`).
 - **Split a PDF** — pull out specific pages, or burst every page into its own file.
 
 Each produces an ordinary, unsigned PDF you then seal with a signature.
